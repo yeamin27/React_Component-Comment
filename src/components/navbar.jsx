@@ -4,10 +4,10 @@ class Navbar extends Component {
   render() {
     return (
       <nav
-        className="navbar navbar-light px-5 py-3"
-        style={{ backgroundColor: "#e3f2fd" }}
+        className="navbar navbar-sm navbar-light px-lg-4 py-sm-3"
+        style={{ backgroundColor: "#002f3b" }}
       >
-        <div className="navbar-brand">Comment-Demo</div>
+        <div className="navbar-brand text-white">Comment</div>
         <form className="form-inline">
           <input
             className="form-control mr-sm-2"
@@ -16,7 +16,8 @@ class Navbar extends Component {
             aria-label="Search"
           />
           <button
-            className="btn btn-outline-success my-2 my-sm-0"
+            className="btn my-2 my-sm-0"
+            style={{ backgroundColor: "#009dc4" }}
             type="submit"
           >
             Search
